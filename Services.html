@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="High quality and professional editing">
+    <meta name="keywords" content="editing, high quality, professional, production, Gold, lion">
+    <meta name="author" content="Pedro H. Fernandes">
+    <title>Gold-Lion Productions - Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("copy");
+
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+    <header>
+      <div class="container">
+        <div id="branding">
+        <h1><span class="highlight">ComicBook</span> Dungeon</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Email Us At Our Super Email</h1>
+        <div class="tooltip">
+        <input type="text" value="pfernandes@fairfieldschools.net" id="myInput" style="border-top-style: solid;width: 200px;height: 25px;margin-top: 23px;border-top-width: 2px;padding-bottom: 2px;padding-top: 2px;">
+          <button onclick="myFunction()" onmouseout="outFunc()" style="border-top-style: solid;border-left-width: 3px;border-left-style: solid;border-bottom-width: 3px;border-bottom-style: solid;padding-left: 10px;padding-bottom: 2px;padding-top: 2px;margin-top: 22px;margin-bottom: 20px;border-top-width: 3px;border-right-width: 3px;border-right-style: solid;">
+  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+  Copy text
+</button></div>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>
+          <p>Our main services are: merchandise, comic reading meetings, delivery of items and many others. We are always innovating our products and meetings so that they serve as best as possible to our team members and non-member clients. We will always try to make our members comfortable and included in the ComicBook Dungeon Community.</p>
+<p class="dark1">All our merchandise is certified and high quality products that will certainly excede your expectations. We are approved by all clothing standards and we are always getting the best material for our products like t-shirts, hoodies, coffee cups, and much more. We bet if you try our products you will certainly not be dissapointed! </p>
+<p>.</p>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+          <h3>Our Community</h3>
+          <p>Our community is very friendly and has won a lot of rewards for helping people in many things and at the same time making some profit. We will always do our best to help our members and comicbook lovers to achieve goals and learn more and more about comicbooks. So come on Join The Dungeon Core!</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>ComicBook Dungeon, Copyright &copy; 2019</p>
+
+    </footer>
+  </body>
+</html>

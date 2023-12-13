@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Comic books, and Heroes">
+    <meta name="keywords" content="Comic Books, Superheroes, powers">
+    <meta name="author" content="Pedro H. Fernandes">
+    <title>ComicBook Dungeon - Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("copy");
+
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+    <header>
+      <div class="container">
+        <div id="branding">
+        <h1><span class="highlight">ComicBook</span> Dungeon</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Join the <span>Dungeon!</span></h1>
+        <p>Join the #1 Website on Comic Books !</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Email Us At Our Super Email</h1>
+                <div class="tooltip">
+        <input type="text" value="pfernandes@fairfieldschools.net" id="myInput" style="border-top-style: solid;width: 200px;height: 25px;margin-top: 23px;border-top-width: 2px;padding-bottom: 2px;padding-top: 2px;">
+          <button onclick="myFunction()" onmouseout="outFunc()" style="border-top-style: solid;border-left-width: 3px;border-left-style: solid;border-bottom-width: 3px;border-bottom-style: solid;padding-left: 10px;padding-bottom: 2px;padding-top: 2px;margin-top: 22px;margin-bottom: 20px;border-top-width: 3px;border-right-width: 3px;border-right-style: solid;">
+  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+  Copy text
+</button></div>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./imgs/logo pro.png" alt="The Soldiers">
+          <h3>The Soldiers</h3>
+          <p>The Soldiers are our frontline fighters that try to always bring people to our community by introducing all our benefits.</p>
+        </div>
+        <div class="box">
+          <img src="./imgs/logo final.png" alt="The Lantern Core">
+          <h3>The Lantern Core</h3>
+          <p>The Lantern Core are the people who organize Comic Book sessions and who will go to which team if you seem lost.</p>
+        </div>
+        <div class="box">
+          <img src="./imgs/logo resolve.png" alt="The Speedsters">
+          <h3>The Speedsters</h3>
+          <p>The Speedsters are the ones who are always in a rush but also having fun reading the Comic Books and helping people out.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>ComicBook Dungeon, Copyright &copy; 2019</p>
+
+    </footer>
+  </body>
+</html>
