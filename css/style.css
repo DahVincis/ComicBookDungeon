@@ -32,7 +32,7 @@ ul{
 }
 /*header*/
 header{
-  background: url("/imgs/back_img.jpg") no-repeat;
+  background: url("/imgs/back_img.jpg");
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
